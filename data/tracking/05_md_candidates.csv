@@ -1,0 +1,4 @@
+rank,ligand_id,source,smiles,target_site,affinity_kcal_mol,selectivity_ratio,selection_reason,md_status,md_duration_ns,rmsd_avg,rmsf_binding_site,binding_free_energy_kcal_mol,notes
+1,CHEMBL5095040,ChEMBL,CC1=CC=C...,P0,-11.15,0.65,Highest affinity + novel scaffold,pending,100,,,,"Selected for MD - best P0"
+2,CHEMBL104086,ChEMBL,CC1=CC(=O)...,P3,-7.555,1.25,Best P3 selectivity,pending,100,,,,"Selected for MD - P3 selective"
+3,CHEMBL471182,ChEMBL,CC1=CN=C...,P0,-10.90,0.61,Drug-like + high affinity,pending,100,,,,"Selected for MD - backup"

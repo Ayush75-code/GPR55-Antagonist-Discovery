@@ -1,0 +1,3 @@
+ligand_id,source,source_id,smiles,molecular_weight,hbd,hba,logp,tpsa,rotatable_bonds,batch,filter_passed,filter_reason,sdf_file
+CHEMBL100001,ChEMBL,100001,CC1=CC=C(C=C1)C2=CC=CC=C2,168.23,0,0,4.2,0,1,01,True,Lipinski OK,CHEMBL100001.sdf
+CHEMBL100999,ChEMBL,100999,CC(C)NC(=O)...,620.5,3,8,5.5,120,8,01,False,MW > 500; LogP > 5,CHEMBL100999.sdf
