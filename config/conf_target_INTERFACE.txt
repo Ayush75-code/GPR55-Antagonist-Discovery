@@ -1,0 +1,25 @@
+# Vina Configuration file for GPR55/G-alpha Interface
+# (The Primary PPI Target - "Molecular Wedge" Site)
+# Calculated from centerofmass of interface residues (5Å cutoff)
+# Chain R (GPR55): 397 interface atoms
+# Chain A (G-alpha): 335 interface atoms
+
+receptor = GPR55_complex.pdbqt
+
+# Interface Center of Mass (calculated in PyMOL)
+center_x = 112.678
+center_y = 92.605
+center_z = 112.545
+
+# A larger 25x25x25 Angstrom box to capture the full interface groove
+size_x = 25
+size_y = 25
+size_z = 25
+
+# High-quality search parameters for HTVS
+exhaustiveness = 16
+
+# Notes:
+# - This target uses the HOLO-COMPLEX (full GPR55 + G-protein)
+# - Ligands binding here should physically disrupt GPR55/G-alpha coupling
+# - Hit Threshold: ΔG < -8.5 kcal/mol (from Phase 1 validation)

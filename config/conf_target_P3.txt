@@ -1,0 +1,18 @@
+# Vina Configuration file for DoGSiteScorer P_3
+# (Primary Allosteric PPI Candidate - The "New" Target)
+# EXPECTED: Should be weaker than P_0 for AM251 (if selective)
+
+receptor = GPR55_receptor.pdbqt
+
+# We are using the coordinates from DoGSiteScorer's "Pocket 3"
+center_x = 105.58
+center_y = 102.05
+center_z = 107.35
+
+# A 20x20x20 Angstrom box
+size_x = 20
+size_y = 20
+size_z = 20
+
+# High-quality search parameters
+exhaustiveness = 64

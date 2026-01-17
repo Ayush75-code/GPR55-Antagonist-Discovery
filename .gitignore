@@ -1,0 +1,54 @@
+# Large data files
+*.pdbqt
+*.zip
+*.sdf
+*.mol2
+
+# Jupyter notebook outputs
+.ipynb_checkpoints/
+*.ipynb
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+~$*
+
+# IDE
+.vscode/
+.idea/
+
+# =====================================
+# MD Simulation Files (LARGE - use Git LFS or external storage)
+# =====================================
+# Trajectory files (can be 1-50+ GB)
+*.xtc
+*.trr
+*.dcd
+*.nc
+
+# Checkpoint files
+*.cpt
+*.rst7
+
+# Energy files
+*.edr
+
+# Keep these (small, for reproducibility):
+# *.gro, *.top, *.mdp, *.pdb (input configs)
+# *_analysis.xvg (analysis outputs)
+
+# =====================================
+# Manuscript (Keep drafts private until publication)
+# =====================================
+manuscript/drafts/
+manuscript/*.docx
+manuscript/*.doc
+
+# Keep these public:
+# manuscript/figures/ (for paper figures)
+# manuscript/supplementary/ (after publication)
