@@ -1,0 +1,8 @@
+ligand_id,target_site,affinity_kcal_mol,rmsd_lb,rmsd_ub,hit_status,batch,notes
+CHEMBL5095040,P0,-11.15,0.0,0.0,super_hit,01,Best P0 binder
+CHEMBL5095409,P0,-11.14,0.0,0.0,super_hit,01,
+CHEMBL2103870,P0,-10.92,0.0,0.0,super_hit,01,
+CHEMBL471182,P0,-10.90,0.0,0.0,super_hit,01,
+CHEMBL104086,P3,-7.555,0.0,0.0,hit,01,Best P3 binder
+CHEMBL1055,P3,-7.509,0.0,0.0,hit,01,
+am251_similar_66844170,P0,-8.609,0.0,0.0,hit,01,AM251 analog

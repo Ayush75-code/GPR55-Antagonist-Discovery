@@ -1,0 +1,7 @@
+ligand_id,source,source_id,batch,molecular_weight,hbd,hba,logp,lipinski_pass,notes
+CHEMBL5095040,ChEMBL,CHEMBL5095040,01,385.42,2,5,3.2,True,Top P0 hit
+CHEMBL5095409,ChEMBL,CHEMBL5095409,01,398.51,1,4,3.8,True,Top P0 hit
+CHEMBL104086,ChEMBL,CHEMBL104086,01,342.38,2,4,2.9,True,Top P3 hit
+CHEMBL1055,ChEMBL,CHEMBL1055,01,356.44,1,5,3.1,True,P3 hit
+am251_similar_66844170,PubChem,66844170,01,412.53,1,4,4.2,True,AM251 analog
+am251_similar_123313239,PubChem,123313239,01,428.61,2,5,3.9,True,AM251 analog
