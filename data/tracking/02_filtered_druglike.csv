@@ -1,0 +1,4 @@
+ligand_id,source,source_id,smiles,molecular_weight,hbd,hba,logp,tpsa,rotatable_bonds,lipinski_violations,filter_status,batch
+CHEMBL100001,ChEMBL,100001,CC1=CC=C(C=C1)C2=CC=CC=C2,168.23,0,0,4.2,0,1,0,PASS,01
+CHEMBL100002,ChEMBL,100002,CC(=O)NC1=CC=C(C=C1)O,151.16,2,2,1.1,49.3,1,0,PASS,01
+66844170,PubChem,66844170,CC1=CC=C(C=C1)NC(=O)C2=CC=CC=C2,211.26,1,2,3.4,29.1,2,0,PASS,01

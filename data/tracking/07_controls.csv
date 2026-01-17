@@ -1,0 +1,5 @@
+control_name,source,source_id,smiles,target_site,affinity_kcal_mol,reference_paper,control_type,notes
+AM251,ChEMBL,CHEMBL303,CC1=CC=C...,P0,-9.872,Henstridge et al. 2010,Known antagonist,GPR55 reference antagonist
+AM251_PubChem,PubChem,2125,CC1=CC=C...,P0,-9.453,--,Known antagonist,PubChem structure validation
+ML193,ChEMBL,CHEMBL1234567,COC1=CC=C...,P0,-8.234,Kargl et al. 2012,Known antagonist,Selective GPR55 antagonist
+CID16078855,PubChem,16078855,CC(C)NC...,P3,-7.123,--,PubChem compound,Interface validation

@@ -1,0 +1,5 @@
+ligand_id,source,smiles,target_site,affinity_kcal_mol,rank_in_target,total_in_target,percentile,batch
+CHEMBL5095040,ChEMBL,CC1=CC=C...,P0,-11.15,1,6804,0.01,01
+CHEMBL5095409,ChEMBL,CC(C)NC...,P0,-11.14,2,6804,0.03,01
+CHEMBL104086,ChEMBL,CC1=CC(=O)...,P3,-7.555,1,6804,0.01,01
+66844170,PubChem,CC1=CC=C...,Interface,-8.609,1,6804,0.01,01

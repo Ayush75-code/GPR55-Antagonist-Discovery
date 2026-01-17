@@ -1,63 +1,48 @@
-# Ligand Tracking System
+# Ligand Tracking Pipeline
 
-Comprehensive tracking sheets for the GPR55 antagonist discovery campaign.
+Sequential tracking system for GPR55 antagonist discovery.
+
+## Pipeline Flow
+
+```
+01_unfiltered_library (35K+)
+         ↓ Lipinski Filter
+02_filtered_druglike (~20K)
+         ↓ HTVS Docking
+03_top10pct_per_target (P0, P3, Interface)
+         ↓ Affinity Ranking
+04_top250_per_target (250 × 3 targets)
+         ↓ Selectivity + Drug Score
+05_top25_per_target (25 × 3 targets)
+         ↓ Expert Selection
+06_top3_md_candidates (3 total)
+         ↓ MD Validation
+07_controls (AM251, ML193, etc.)
+```
 
 ## Files
 
-| Sheet | Description | When to Update |
-|-------|-------------|----------------|
-| `01_all_ligands.csv` | All 35K+ ligands with IDs, SMILES, sources | After library preparation |
-| `02_filtered_ligands.csv` | Lipinski/drug-like filtered compounds | After filtering step |
-| `03_htvs_results.csv` | Docking results (affinity, rank, hit category) | After each HTVS batch |
-| `04_top25_hits.csv` | Top 25 ranked compounds across all targets | After HTVS completion |
-| `05_md_candidates.csv` | Top 3 for MD simulation with tracking | During/after MD runs |
+| Step | File | Description |
+|------|------|-------------|
+| 1 | `01_unfiltered_library.csv` | All 35K+ raw ligands from ChEMBL/PubChem |
+| 2 | `02_filtered_druglike.csv` | Passed Lipinski Rule of 5 |
+| 3 | `03_top10pct_per_target.csv` | Top 10% by affinity for each target |
+| 4 | `04_top250_per_target.csv` | Top 250 per target (P0, P3, Interface) |
+| 5 | `05_top25_per_target.csv` | Top 25 per target with selectivity scores |
+| 6 | `06_top3_md_candidates.csv` | Final 3 for 100ns MD simulation |
+| 7 | `07_controls.csv` | Reference antagonists (AM251, ML193) |
 
-## Column Definitions
+## Target Sites
 
-### Common Fields
-| Column | Description |
-|--------|-------------|
-| `ligand_id` | Unique identifier (CHEMBL ID or PubChem CID) |
-| `source` | Database: ChEMBL, PubChem, ZINC, etc. |
-| `source_id` | ID in original database |
-| `smiles` | Canonical SMILES string |
-| `batch` | Batch number (01-09) |
+| Site | Type | Description |
+|------|------|-------------|
+| P0 | Orthosteric | Primary binding pocket |
+| P3 | Allosteric | PPI interface site |
+| Interface | Hybrid | Membrane-receptor interface |
 
-### Molecular Properties
-| Column | Description |
-|--------|-------------|
-| `molecular_weight` | MW in Da |
-| `hbd` | H-bond donors |
-| `hba` | H-bond acceptors |
-| `logp` | Partition coefficient |
-| `tpsa` | Topological polar surface area |
-| `rotatable_bonds` | Number of rotatable bonds |
-| `lipinski_pass` | True/False for Lipinski Rule of 5 |
+## Key Columns
 
-### Docking Results
-| Column | Description |
-|--------|-------------|
-| `target_site` | P0 (Orthosteric), P3 (Allosteric), Interface |
-| `affinity_kcal_mol` | Best docking score |
-| `percentile` | top_1%, top_5%, top_10%, etc. |
-| `hit_category` | super_hit (<-10), hit (<-8.5), moderate (<-7) |
-| `selectivity_p3_p0` | Ratio for allosteric selectivity |
-
-### MD Simulation
-| Column | Description |
-|--------|-------------|
-| `md_status` | pending, running, completed, failed |
-| `md_duration_ns` | Simulation length in nanoseconds |
-| `rmsd_avg` | Average RMSD (Å) |
-| `rmsf_binding_site` | RMSF at binding site (Å) |
-| `binding_free_energy_kcal_mol` | MM-PBSA result |
-
-## Workflow
-
-```
-01_all_ligands → 02_filtered_ligands → 03_htvs_results
-                                              ↓
-                                       04_top25_hits
-                                              ↓
-                                       05_md_candidates
-```
+- **affinity_kcal_mol**: AutoDock Vina docking score
+- **selectivity_ratio**: P3/P0 ratio (>1 = P3 selective)
+- **md_status**: pending / running / completed / failed
+- **binding_free_energy**: MM-PBSA result from MD

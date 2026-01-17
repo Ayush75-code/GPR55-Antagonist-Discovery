@@ -1,0 +1,4 @@
+rank,ligand_id,source,smiles,target_site,affinity_kcal_mol,selection_reason,md_status,md_duration_ns,rmsd_avg_A,rmsf_binding_A,binding_free_energy_kcal_mol,stability_notes
+1,CHEMBL5095040,ChEMBL,CC1=CC=C...,P0,-11.15,Highest P0 affinity + novel scaffold,pending,100,,,,
+2,CHEMBL104086,ChEMBL,CC1=CC(=O)...,P3,-7.555,Best P3 selectivity (allosteric),pending,100,,,,
+3,66844170,PubChem,CC1=CC=C...,Interface,-8.609,Best Interface binder,pending,100,,,,

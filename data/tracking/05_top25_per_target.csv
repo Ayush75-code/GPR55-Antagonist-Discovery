@@ -1,0 +1,15 @@
+rank,ligand_id,source,smiles,target_site,affinity_kcal_mol,selectivity_ratio,drug_score,batch,notes
+1,CHEMBL5095040,ChEMBL,CC1=CC=C...,P0,-11.15,0.65,0.92,01,Best P0
+2,CHEMBL5095409,ChEMBL,CC(C)NC...,P0,-11.14,0.58,0.89,01,
+3,CHEMBL2103870,ChEMBL,COC1=CC=C...,P0,-10.92,0.72,0.88,01,
+...,...,...,...,...,...,...,...,...,...
+25,,,,,,,,,
+
+1,CHEMBL104086,ChEMBL,CC1=CC(=O)...,P3,-7.555,1.25,0.85,01,Best P3
+2,CHEMBL1055,ChEMBL,COC1=CC=C...,P3,-7.509,1.18,0.83,01,
+...,...,...,...,...,...,...,...,...,...
+25,,,,,,,,,
+
+1,66844170,PubChem,CC1=CC=C...,Interface,-8.609,0.95,0.87,01,Best Interface
+...,...,...,...,...,...,...,...,...,...
+25,,,,,,,,,

@@ -1,7 +1,0 @@
-ligand_id,source,smiles,target_site,affinity_kcal_mol,rank_in_batch,batch,percentile,hit_category,notes
-CHEMBL5095040,ChEMBL,CC1=CC=C...,P0,-11.15,1,01,top_1%,super_hit,Best P0 binder
-CHEMBL5095409,ChEMBL,CC(C)NC...,P0,-11.14,2,01,top_1%,super_hit,
-CHEMBL2103870,ChEMBL,COC1=CC=C...,P0,-10.92,3,01,top_1%,super_hit,
-CHEMBL471182,ChEMBL,CC1=CN=C...,P0,-10.90,4,01,top_1%,super_hit,
-CHEMBL104086,ChEMBL,CC1=CC(=O)...,P3,-7.555,1,01,top_5%,hit,Best P3 binder
-CHEMBL1055,ChEMBL,COC1=CC=C...,P3,-7.509,2,01,top_5%,hit,
