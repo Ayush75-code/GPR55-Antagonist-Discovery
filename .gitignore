@@ -6,7 +6,7 @@
 
 # Jupyter notebook outputs
 .ipynb_checkpoints/
-*.ipynb
+# *.ipynb (Allowed for public showcase)
 
 # Python cache
 __pycache__/
