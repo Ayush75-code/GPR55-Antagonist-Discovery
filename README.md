@@ -3,6 +3,7 @@
 > **Computational Drug Discovery Pipeline for Novel GPR55 Antagonists**
 
 [![Phase](https://img.shields.io/badge/Phase-2%20HTVS-blue)](docs/PHASE_2_PREPARATION.md)
+[![Stage](https://img.shields.io/badge/Stage-2%20Running-orange)]()
 [![Target](https://img.shields.io/badge/Target-GPR55-green)](docs/GPR55_INTRODUCTION.md)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -16,17 +17,19 @@ This project aims to discover novel allosteric antagonists for **GPR55** (G prot
 
 ```mermaid
 flowchart LR
-    A[Target Identification] --> B[Protocol Validation]
-    B --> C[Library Assembly]
-    C --> D[HTVS Docking]
-    D --> E[Hit Analysis]
-    E --> F[MD Simulations]
-    F --> G[Lead Optimization]
+    A[Target ID] --> B[Validation]
+    B --> C[Library Prep]
+    C --> D[Stage 1: HTVS]
+    D --> E[Stage 2: Refined]
+    E --> F[Stage 3: Precision]
+    F --> G[ADMET Filter]
+    G --> H[MD Sims]
     
     style A fill:#22c55e
     style B fill:#22c55e
-    style C fill:#3b82f6
-    style D fill:#3b82f6
+    style C fill:#22c55e
+    style D fill:#22c55e
+    style E fill:#f97316
 ```
 
 ---
@@ -37,22 +40,41 @@ flowchart LR
 |-------|-------------|--------|
 | Phase 0 | Allosteric Target Identification | ✅ Complete |
 | Phase 1 | Protocol Validation (AM251 Control) | ✅ Complete |
-| Phase 2 | Library Prep & HTVS | 🔄 In Progress |
+| Phase 2 | Library Prep & HTVS | 🔄 **Stage 2 Running** |
 | Phase 3 | Hit Analysis & Clustering | ⬜ Pending |
 | Phase 4 | MD Simulations | ⬜ Pending |
 | Phase 5 | Final Analysis & Publication | ⬜ Pending |
+
+### HTVS Pipeline
+
+| Stage | Exhaustiveness | Input | Output | Status |
+|-------|----------------|-------|--------|--------|
+| Stage 1 | 8 | 10,940 compounds | Top 10% | ✅ Complete |
+| Stage 2 | 16 | 2,080 ligands | Top 250/target | 🔄 Running |
+| Stage 3 | 32 | 750 ligands | Top 75/target | ⬜ Pending |
+| Stage 4 | 64 | 225 ligands | Top 3/target | ⬜ Pending |
 
 ---
 
 ## 🧬 Target Sites
 
-Four validated allosteric binding sites on GPR55:
+Three validated binding sites on GPR55:
 
 | Site | Location | Purpose |
 |------|----------|---------|
-| P0 | Intracellular cavity | Primary allosteric site |
-| P3 | TM5-TM6 interface | Secondary screening target |
-| Interface | EC domain interface | Novel discovery target |
+| P0 | Orthosteric | Classical binding pocket |
+| P3 | Allosteric | Novel allosteric site |
+| Interface | Gα PPI | Protein-protein interface |
+
+---
+
+## 🏆 Top Hits (Stage 2 - In Progress)
+
+| Compound | Target | Affinity |
+|----------|--------|----------|
+| compound_11569386_3d | P0 | -12.3 kcal/mol |
+| compound_121036492_3d | P0 | -11.5 kcal/mol |
+| compound_149348105_3d | P0 | -11.4 kcal/mol |
 
 ---
 
@@ -61,7 +83,7 @@ Four validated allosteric binding sites on GPR55:
 - **Docking:** AutoDock Vina 1.2.5
 - **Visualization:** PyMOL, UCSF Chimera
 - **Cheminformatics:** RDKit, Open Babel
-- **Compute:** Google Colab (GPU/TPU)
+- **Compute:** Google Cloud VM (8-core)
 
 ---
 
@@ -76,7 +98,7 @@ Four validated allosteric binding sites on GPR55:
 ├── scripts/
 │   ├── colab/              # Colab notebook scripts
 │   ├── converters/         # SMILES/SDF/PDBQT converters
-│   └── pymol_utils/        # Visualization utilities
+│   └── vm/                 # VM docking scripts
 ├── config/                 # Docking configuration files
 ├── results/                # Control validation results
 └── figures/                # Visualizations & renders
@@ -103,6 +125,12 @@ Four validated allosteric binding sites on GPR55:
 ## 📜 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+## 👤 Author
+
+**Ayush** - [GitHub](https://github.com/Aayush-ob)
 
 ---
 
