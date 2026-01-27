@@ -1,5 +1,6 @@
 # Large data files
 *.pdbqt
+!results/**/*.pdbqt
 *.zip
 *.sdf
 *.mol2
