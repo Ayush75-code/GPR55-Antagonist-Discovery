@@ -24,36 +24,26 @@ This project aims to discover novel antagonists for **GPR55** (G protein-coupled
 ## 📊 Pipeline Workflow
 
 ```mermaid
-flowchart TD
-    subgraph PREP["📦 PREPARATION"]
-        A[35,000 Compounds<br/>ChEMBL + PubChem] --> B[Lipinski Filter<br/>Rule of 5]
-        B --> C[10,940 Drug-like<br/>Compounds]
-    end
+flowchart LR
+    A[35,000 Compounds] --> B[Lipinski Filter] --> C[10,940]
+    C --> D[Stage 1 HTVS] --> E[3,279 Hits]
+    E --> F[Stage 2 Precision] --> G[373 Dockings]
+    G --> H[Top 75] --> I[9 + 3 for MD]
+    I --> J[ADMET] --> K[MD 150ns] --> L[MM/GBSA]
     
-    subgraph HTVS["🔬 HIGH-THROUGHPUT VIRTUAL SCREENING"]
-        C --> D[Stage 1: HTVS<br/>exh=8, modes=1]
-        D --> E[3,279 Hits<br/>Top 10% per target]
-        E --> F[Stage 2: Precision<br/>exh=64, modes=15]
-        F --> G[373 Validated<br/>Dockings]
-    end
-    
-    subgraph SELECT["🎯 SELECTION"]
-        G --> H[Top 75 Hits<br/>25 per target]
-        H --> I[9 Novel + 3 Controls<br/>for MD]
-    end
-    
-    subgraph NEXT["🔮 NEXT PHASE"]
-        I --> J[ADMET Filtering]
-        J --> K[MD Simulations<br/>150 ns × 12]
-        K --> L[MM/GBSA<br/>Binding Energy]
-    end
-    
-    style A fill:#e0f2fe
     style C fill:#bbf7d0
     style G fill:#bbf7d0
     style I fill:#fef08a
-    style L fill:#fecaca
 ```
+
+### Pipeline Summary
+
+| Stage | Input | Process | Output |
+|-------|-------|---------|--------|
+| **Pre-filter** | 35,000 | Lipinski Ro5 | 10,940 |
+| **Stage 1** | 10,940 | HTVS (exh=8) | 3,279 |
+| **Stage 2** | 750 | Precision (exh=64) | 373 |
+| **Selection** | 373 | Top 25/target | 75 → **9 for MD** |
 
 ---
 
