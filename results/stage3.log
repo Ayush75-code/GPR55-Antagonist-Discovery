@@ -1,0 +1,136 @@
+[2026-01-23 09:51:37] ======================================================================
+[2026-01-23 09:51:37]        GPR55 HTVS - STAGE 3 HIGH-PRECISION DOCKING
+[2026-01-23 09:51:37]        Exhaustiveness: 32 | Modes: 9
+[2026-01-23 09:51:37] ======================================================================
+[2026-01-23 09:51:37] Loaded 571 candidate ligands
+[2026-01-23 09:51:37] Total docking jobs: 723
+[2026-01-23 09:51:37] Starting parallel docking with 4 workers...
+[2026-01-23 10:15:40] [10/723] 1.4% | compound_52056924_3d | P0 | -11.2 kcal/mol | 0.4 jobs/min | ETA: 1715min
+[2026-01-23 10:34:44] [20/723] 2.8% | compound_78231414_3d | P0 | -11.0 kcal/mol | 0.5 jobs/min | ETA: 1516min
+[2026-01-23 10:53:48] [30/723] 4.1% | compound_118574738_3d | P0 | -10.9 kcal/mol | 0.5 jobs/min | ETA: 1437min
+[2026-01-23 11:16:34] [40/723] 5.5% | compound_32853070_3d | P0 | -10.9 kcal/mol | 0.5 jobs/min | ETA: 1451min
+[2026-01-23 11:39:02] [50/723] 6.9% | compound_67190264_3d | P0 | -10.9 kcal/mol | 0.5 jobs/min | ETA: 1446min
+[2026-01-23 11:54:55] [60/723] 8.3% | compound_1180683_3d | P0 | -10.7 kcal/mol | 0.5 jobs/min | ETA: 1362min
+[2026-01-23 12:11:28] [70/723] 9.7% | CHEMBL1375743 | P0 | -10.7 kcal/mol | 0.5 jobs/min | ETA: 1305min
+[2026-01-23 12:32:40] [80/723] 11.1% | compound_53029457_3d | P0 | -10.6 kcal/mol | 0.5 jobs/min | ETA: 1294min
+[2026-01-23 12:52:30] [90/723] 12.4% | compound_39651808_3d | P0 | -10.5 kcal/mol | 0.5 jobs/min | ETA: 1272min
+[2026-01-23 13:12:31] [100/723] 13.8% | compound_23941285_3d | P0 | None kcal/mol | 0.5 jobs/min | ETA: 1252min
+[2026-01-23 13:31:27] [110/723] 15.2% | compound_60301388_3d | P0 | -10.5 kcal/mol | 0.5 jobs/min | ETA: 1225min
+[2026-01-23 13:51:47] [120/723] 16.6% | compound_21036768_3d | P0 | -10.5 kcal/mol | 0.5 jobs/min | ETA: 1207min
+[2026-01-23 14:11:49] [130/723] 18.0% | compound_38705202_3d | P0 | -10.5 kcal/mol | 0.5 jobs/min | ETA: 1187min
+[2026-01-23 14:34:59] [140/723] 19.4% | compound_132950393_3d | P0 | None kcal/mol | 0.5 jobs/min | ETA: 1180min
+[2026-01-23 14:52:40] [150/723] 20.7% | compound_3246238_3d | P0 | -10.4 kcal/mol | 0.5 jobs/min | ETA: 1150min
+[2026-01-23 15:09:47] [160/723] 22.1% | compound_33611103_3d | P0 | None kcal/mol | 0.5 jobs/min | ETA: 1120min
+[2026-01-23 15:28:07] [170/723] 23.5% | compound_69621490_3d | P0 | -10.4 kcal/mol | 0.5 jobs/min | ETA: 1095min
+[2026-01-23 15:49:23] [180/723] 24.9% | compound_100230477_3d | P0 | -10.4 kcal/mol | 0.5 jobs/min | ETA: 1079min
+[2026-01-23 16:10:01] [190/723] 26.3% | compound_38848426_3d | P0 | None kcal/mol | 0.5 jobs/min | ETA: 1062min
+[2026-01-23 16:29:14] [200/723] 27.7% | ml184_similar_125622908 | P0 | -10.3 kcal/mol | 0.5 jobs/min | ETA: 1040min
+[2026-01-23 16:48:43] [210/723] 29.0% | compound_25746871_3d | P0 | -10.3 kcal/mol | 0.5 jobs/min | ETA: 1019min
+[2026-01-23 17:08:35] [220/723] 30.4% | compound_71213646_3d | P0 | None kcal/mol | 0.5 jobs/min | ETA: 999min
+[2026-01-23 17:29:50] [230/723] 31.8% | compound_44790337_3d | P0 | None kcal/mol | 0.5 jobs/min | ETA: 982min
+[2026-01-23 17:48:39] [240/723] 33.2% | ml184_similar_27259379 | P0 | -10.2 kcal/mol | 0.5 jobs/min | ETA: 960min
+[2026-01-23 18:11:34] [250/723] 34.6% | CHEMBL220808 | P3 | -6.5 kcal/mol | 0.5 jobs/min | ETA: 946min
+[2026-01-23 18:31:45] [260/723] 36.0% | compound_126665141_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 926min
+[2026-01-23 18:47:58] [270/723] 37.3% | compound_36518103_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 900min
+[2026-01-23 19:11:27] [280/723] 38.7% | compound_121036492_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 886min
+[2026-01-23 19:34:11] [290/723] 40.1% | compound_96464562_3d | P3 | -7.7 kcal/mol | 0.5 jobs/min | ETA: 870min
+[2026-01-23 19:56:53] [300/723] 41.5% | compound_73976231_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 853min
+[2026-01-23 20:24:11] [310/723] 42.9% | compound_38011610_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 843min
+[2026-01-23 20:42:46] [320/723] 44.3% | compound_85599981_3d | P3 | -7.7 kcal/mol | 0.5 jobs/min | ETA: 820min
+[2026-01-23 21:05:25] [330/723] 45.6% | compound_26383325_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 802min
+[2026-01-23 21:29:12] [340/723] 47.0% | compound_145899651_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 786min
+[2026-01-23 21:51:15] [350/723] 48.4% | compound_121494740_3d | P3 | -7.4 kcal/mol | 0.5 jobs/min | ETA: 767min
+[2026-01-23 22:12:30] [360/723] 49.8% | compound_53138040_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 747min
+[2026-01-23 22:36:45] [370/723] 51.2% | compound_119122032_3d | P3 | -7.5 kcal/mol | 0.5 jobs/min | ETA: 730min
+[2026-01-23 22:57:38] [380/723] 52.6% | compound_26969575_3d | P3 | -7.5 kcal/mol | 0.5 jobs/min | ETA: 709min
+[2026-01-23 23:19:44] [390/723] 53.9% | CHEMBL1055 | P3 | -7.5 kcal/mol | 0.5 jobs/min | ETA: 690min
+[2026-01-23 23:43:52] [400/723] 55.3% | compound_40035893_3d | P3 | -8.1 kcal/mol | 0.5 jobs/min | ETA: 672min
+[2026-01-24 00:06:45] [410/723] 56.7% | CHEMBL3183740 | P3 | None kcal/mol | 0.5 jobs/min | ETA: 653min
+[2026-01-24 00:33:03] [420/723] 58.1% | compound_140554820_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 636min
+[2026-01-24 00:55:10] [430/723] 59.5% | compound_39651808_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 616min
+[2026-01-24 01:15:10] [440/723] 60.9% | compound_122285268_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 594min
+[2026-01-24 01:36:24] [450/723] 62.2% | compound_69662742_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 573min
+[2026-01-24 01:59:13] [460/723] 63.6% | compound_39439533_3d | P3 | None kcal/mol | 0.5 jobs/min | ETA: 553min
+[2026-01-24 02:18:50] [470/723] 65.0% | CHEMBL2027925 | P3 | None kcal/mol | 0.5 jobs/min | ETA: 531min
+[2026-01-24 02:43:12] [480/723] 66.4% | CHEMBL408 | P3 | None kcal/mol | 0.5 jobs/min | ETA: 512min
+[2026-01-24 03:08:21] [490/723] 67.8% | compound_28506005_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 493min
+[2026-01-24 03:28:22] [500/723] 69.2% | compound_92504162_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 471min
+[2026-01-24 03:51:40] [510/723] 70.5% | CHEMBL1743213 | Interface | -8.6 kcal/mol | 0.5 jobs/min | ETA: 451min
+[2026-01-24 04:14:24] [520/723] 71.9% | compound_26021379_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 431min
+[2026-01-24 04:33:49] [530/723] 73.3% | compound_56485963_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 409min
+[2026-01-24 04:55:52] [540/723] 74.7% | compound_69061981_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 388min
+[2026-01-24 05:16:31] [550/723] 76.1% | compound_47925743_3d | Interface | -8.4 kcal/mol | 0.5 jobs/min | ETA: 366min
+[2026-01-24 05:35:53] [560/723] 77.5% | compound_138682306_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 345min
+[2026-01-24 05:58:34] [570/723] 78.8% | CHEMBL1346 | Interface | None kcal/mol | 0.5 jobs/min | ETA: 324min
+[2026-01-24 06:23:14] [580/723] 80.2% | compound_30952836_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 304min
+[2026-01-24 06:42:23] [590/723] 81.6% | compound_142297212_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 282min
+[2026-01-24 07:02:50] [600/723] 83.0% | compound_42118951_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 261min
+[2026-01-24 07:27:03] [610/723] 84.4% | compound_124355430_3d | Interface | -8.2 kcal/mol | 0.5 jobs/min | ETA: 240min
+[2026-01-24 07:46:06] [620/723] 85.8% | compound_75587581_3d | Interface | -8.1 kcal/mol | 0.5 jobs/min | ETA: 218min
+[2026-01-24 08:06:48] [630/723] 87.1% | ml184_similar_29196076 | Interface | None kcal/mol | 0.5 jobs/min | ETA: 197min
+[2026-01-24 08:27:12] [640/723] 88.5% | compound_145883004_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 176min
+[2026-01-24 08:47:02] [650/723] 89.9% | CHEMBL2106966 | Interface | -8.1 kcal/mol | 0.5 jobs/min | ETA: 154min
+[2026-01-24 09:06:23] [660/723] 91.3% | compound_25916941_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 133min
+[2026-01-24 09:29:38] [670/723] 92.7% | compound_37340213_3d | Interface | -8.1 kcal/mol | 0.5 jobs/min | ETA: 112min
+[2026-01-24 09:50:55] [680/723] 94.1% | compound_11545456_3d | Interface | -8.0 kcal/mol | 0.5 jobs/min | ETA: 91min
+[2026-01-24 10:11:19] [690/723] 95.4% | CHEMBL2005186 | Interface | None kcal/mol | 0.5 jobs/min | ETA: 70min
+[2026-01-24 10:31:04] [700/723] 96.8% | compound_1037776_3d | Interface | -8.0 kcal/mol | 0.5 jobs/min | ETA: 49min
+[2026-01-24 10:50:56] [710/723] 98.2% | compound_118574738_3d | Interface | None kcal/mol | 0.5 jobs/min | ETA: 27min
+[2026-01-24 11:09:27] [720/723] 99.6% | compound_97825854_3d | Interface | -8.0 kcal/mol | 0.5 jobs/min | ETA: 6min
+[2026-01-24 11:14:19] [723/723] 100.0% | compound_25857302_3d | Interface | -8.4 kcal/mol | 0.5 jobs/min | ETA: 0min
+[2026-01-24 11:14:19] 
+======================================================================
+[2026-01-24 11:14:19] STAGE 3 COMPLETE
+[2026-01-24 11:14:19] ======================================================================
+[2026-01-24 11:14:19] Time: 1522.7 minutes
+[2026-01-24 11:14:19] Completed: 372
+[2026-01-24 11:14:19] Failed: 351
+[2026-01-24 11:14:19] Results: /home/jupyter/docking/results/stage3/stage3_results.csv
+[2026-01-24 11:14:19] 
+Top 10 Hits:
+[2026-01-24 11:14:19] --------------------------------------------------
+[2026-01-24 11:14:19]   compound_11569386_3d                | P0         | -12.3 kcal/mol
+[2026-01-24 11:14:19]   compound_124138019_3d               | P0         | -11.4 kcal/mol
+[2026-01-24 11:14:19]   compound_73952742_3d                | P0         | -11.3 kcal/mol
+[2026-01-24 11:14:19]   compound_9420494_3d                 | P0         | -11.2 kcal/mol
+[2026-01-24 11:14:19]   compound_52056924_3d                | P0         | -11.2 kcal/mol
+[2026-01-24 11:14:19]   ml184_similar_2712773               | P0         | -11.2 kcal/mol
+[2026-01-24 11:14:19]   compound_33926475_3d                | P0         | -11.2 kcal/mol
+[2026-01-24 11:14:19]   compound_58935799_3d                | P0         | -11.1 kcal/mol
+[2026-01-24 11:14:19]   compound_76358219_3d                | P0         | -11.1 kcal/mol
+[2026-01-24 11:14:19]   compound_1756196_3d                 | P0         | -11.1 kcal/mol
+[2026-01-24 18:03:47] ======================================================================
+[2026-01-24 18:03:47]        GPR55 HTVS - STAGE 3 HIGH-PRECISION DOCKING
+[2026-01-24 18:03:47]        Exhaustiveness: 32 | Modes: 9
+[2026-01-24 18:03:47] ======================================================================
+[2026-01-24 18:03:47] Loaded 571 candidate ligands
+[2026-01-24 18:03:47] Total docking jobs: 723
+[2026-01-24 18:03:47] Starting parallel docking with 4 workers...
+[2026-01-24 18:13:47] [10/723] 1.4% | compound_76358219_3d | P0 | -11.1 kcal/mol | 1.0 jobs/min | ETA: 713min
+[2026-01-24 18:13:47] [20/723] 2.8% | compound_149348105_3d | P0 | None kcal/mol | 2.0 jobs/min | ETA: 352min
+[2026-01-24 18:23:47] [30/723] 4.1% | compound_67421017_3d | P0 | None kcal/mol | 1.5 jobs/min | ETA: 462min
+[2026-01-24 18:33:19] ======================================================================
+[2026-01-24 18:33:19]        GPR55 HTVS - STAGE 3 HIGH-PRECISION DOCKING
+[2026-01-24 18:33:19]        Exhaustiveness: 32 | Modes: 9
+[2026-01-24 18:33:19] ======================================================================
+[2026-01-24 18:33:19] Loaded 571 candidate ligands
+[2026-01-24 18:33:19] Total docking jobs: 723
+[2026-01-24 18:33:19] Starting parallel docking with 4 workers...
+[2026-01-24 18:43:19] [10/723] 1.4% | compound_76358219_3d | P0 | -11.1 kcal/mol | 1.0 jobs/min | ETA: 713min
+[2026-01-24 18:43:19] [20/723] 2.8% | compound_99443216_3d | P0 | -11.1 kcal/mol | 2.0 jobs/min | ETA: 352min
+[2026-01-24 18:43:55] ======================================================================
+[2026-01-24 18:43:55]        GPR55 HTVS - STAGE 3 HIGH-PRECISION DOCKING
+[2026-01-24 18:43:55]        Exhaustiveness: 32 | Modes: 9
+[2026-01-24 18:43:55] ======================================================================
+[2026-01-24 18:43:55] Loaded 571 candidate ligands
+[2026-01-24 18:43:55] Total docking jobs: 723
+[2026-01-24 18:43:55] Starting parallel docking with 4 workers...
+[2026-01-24 18:53:55] [10/723] 1.4% | compound_76358219_3d | P0 | -11.1 kcal/mol | 1.0 jobs/min | ETA: 713min
+[2026-01-24 18:53:55] [20/723] 2.8% | compound_32709998_3d | P0 | None kcal/mol | 2.0 jobs/min | ETA: 352min
+[2026-01-24 19:03:55] [30/723] 4.1% | compound_30952836_3d | P0 | -10.9 kcal/mol | 1.5 jobs/min | ETA: 462min
+[2026-01-24 19:13:55] [40/723] 5.5% | CHEMBL2103870 | P0 | -10.9 kcal/mol | 1.3 jobs/min | ETA: 512min
+[2026-01-24 19:13:55] [50/723] 6.9% | compound_69204715_3d | P0 | -10.8 kcal/mol | 1.7 jobs/min | ETA: 404min
+[2026-01-24 19:23:55] [60/723] 8.3% | compound_45159495_3d | P0 | -10.7 kcal/mol | 1.5 jobs/min | ETA: 442min
+[2026-01-24 19:23:55] [70/723] 9.7% | compound_10047628_3d | P0 | -10.6 kcal/mol | 1.7 jobs/min | ETA: 373min
+[2026-01-24 19:23:55] [80/723] 11.1% | compound_95066825_3d | P0 | -10.6 kcal/mol | 2.0 jobs/min | ETA: 322min
+[2026-01-24 19:33:55] [90/723] 12.4% | compound_39651808_3d | P0 | -10.5 kcal/mol | 1.8 jobs/min | ETA: 352min
