@@ -25,15 +25,42 @@ This project aims to discover novel antagonists for **GPR55** (G protein-coupled
 
 ```mermaid
 flowchart LR
-    A[35,000 Compounds] --> B[Lipinski Filter] --> C[10,940]
-    C --> D[Stage 1 HTVS] --> E[3,279 Hits]
-    E --> F[Stage 2 Precision] --> G[373 Dockings]
-    G --> H[Top 75] --> I[9 + 3 for MD]
-    I --> J[ADMET] --> K[MD 150ns] --> L[MM/GBSA]
+    %% Column 1: Prep
+    subgraph COL1 [1. Preparation]
+        direction TB
+        A[35,000 Compounds] --> B[Lipinski Filter]
+        B --> C[10,940 Drug-like]
+    end
     
+    %% Column 2: Screening
+    subgraph COL2 [2. Screening]
+        direction TB
+        D[Stage 1: HTVS] --> E[3,279 Hits]
+        E --> F[Stage 2: Precision]
+    end
+    
+    %% Column 3: Selection
+    subgraph COL3 [3. Selection]
+        direction TB
+        G[373 Dockings] --> H[Top 75 Hits]
+        H --> I[9 + 3 for MD]
+    end
+    
+    %% Column 4: Validation
+    subgraph COL4 [4. Validation]
+        direction TB
+        J[ADMET Analysis] --> K[MD 150ns]
+        K --> L[MM/GBSA]
+    end
+
+    %% Link Columns
+    COL1 --> COL2 --> COL3 --> COL4
+    
+    %% Styling
     style C fill:#bbf7d0
-    style G fill:#bbf7d0
+    style F fill:#bbf7d0
     style I fill:#fef08a
+    style L fill:#fecaca
 ```
 
 ### Pipeline Summary
