@@ -55,12 +55,6 @@ flowchart LR
 
     %% Link Columns
     COL1 --> COL2 --> COL3 --> COL4
-    
-    %% Styling
-    style C fill:#bbf7d0
-    style F fill:#bbf7d0
-    style I fill:#fef08a
-    style L fill:#fecaca
 ```
 
 ### Pipeline Summary
